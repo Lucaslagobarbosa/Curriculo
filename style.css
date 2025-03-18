@@ -1,0 +1,80 @@
+footer {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+}
+
+img {
+  border-color: brown;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 80px;
+}
+
+nav.menu-principal{
+  background-color: brown;
+  margin-bottom: 50px;
+}
+
+nav.menu-principal ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav.menu-principal ul li {
+  list-style-type: none; 
+  display: inline-block; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;  
+}
+
+nav.menu-principal ul li:hover{
+  background-color: yellow;
+  transition: background-color 2s;
+}
+nav.menu-principal ul li a:hover {
+  color: black;
+  transition: color 2s;
+}
+
+main {
+  width: 60%;
+  padding-right: 20px;
+}
+aside {
+  width: 40%;
+}
+
+div.tudo {
+  display: flex;
+}
+
+hr {
+  border: 10px solid brown;
+}
+
+header{
+  text-align: center;
+}
+
+img#foto-perfil {
+  width: 200px;
+  transition: width 1s;
+}
+
+img#foto-perfil:hover{
+  width: 500px;
+}
+
+.caixa-selecao{
+  width: 100%;
+  font-size: 36px;
+}
+
+table, table tr th, table tr td {
+  border: 1px solid black;
+}
+
